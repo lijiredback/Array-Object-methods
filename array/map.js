@@ -15,3 +15,5 @@ const ret = map(originalArr, function(item) {
 });
 
 console.log(ret);
+
+module.exports = map;
