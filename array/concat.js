@@ -3,7 +3,7 @@ Array.prototype.myConcat = function(arr) {
     const newArr = this;
     console.log(this);
     for (var i = 0; i < arr.length; i++) {
-        newArr.push(arr[i]); // 如果不能用 push 怎么办，如果要多个数组怎么办
+        newArr.push(arr[i]); // 如果不能用 push 怎么办，如果要多个数组怎么办？
 
     }
     return newArr;
